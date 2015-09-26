@@ -60,6 +60,7 @@ Open, read, and write, etc... works on Windows, Linux and Mac OS X.
 
 Using PhpSerial, you can program cross-platform PHP code for Serial Ports without worrying about which OS its run on.
 
+```php
 <?php
 
 require_once 'PhpSerial.php';
@@ -90,6 +91,7 @@ $serial->sendMessage(ob_get_clean());
 $serial->serialflush();
 
 ?>
+```
 
 ### Concerns
 
